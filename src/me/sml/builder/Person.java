@@ -1,29 +1,29 @@
 package me.sml.builder;
 
-public class Person {
+class Person {
     private String name;
     private int age;
     private boolean marry;
 
-    public Person(String name, int age, boolean marry) {
+    private Person(String name, int age, boolean marry) {
         this.name = name;
         this.age = age;
         this.marry = marry;
     }
 
-    public static PersonBuilder builder(){
+    static PersonBuilder builder(){
         return new PersonBuilder();
     }
 
-    public String getName() {
+    String getName() {
         return name;
     }
 
-    public int getAge() {
+    int getAge() {
         return age;
     }
 
-    public boolean isMarry() {
+    boolean isMarry() {
         return marry;
     }
 
