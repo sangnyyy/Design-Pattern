@@ -5,4 +5,8 @@ public abstract class ShoesFactory {
     public void getIndustryType(){
         System.out.println("Shoes");
     }
+    public Shoes makeShoesWithLog(String name){
+        System.out.println("make shoes");
+        return makeShoes(name);
+    }
 }
