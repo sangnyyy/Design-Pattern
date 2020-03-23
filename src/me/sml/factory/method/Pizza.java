@@ -1,4 +1,4 @@
 package me.sml.factory.method;
 
-public class Shoes {
+public class Pizza {
 }
