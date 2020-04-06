@@ -1,4 +1,4 @@
-package me.sml.factory.method;
+package me.sml.factory;
 
 public abstract class PizzaStore {
 
