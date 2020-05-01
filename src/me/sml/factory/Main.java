@@ -5,7 +5,7 @@ public class Main {
         PizzaStore newyorkPizzaStore = new NewyorkPizzaStore();
         newyorkPizzaStore.orderPizza("pepporoni");
 
-        ChicagoPizzaStore chicagoPizzaStore = new ChicagoPizzaStore();
+        PizzaStore chicagoPizzaStore = new ChicagoPizzaStore();
         chicagoPizzaStore.orderPizza("cheese");
 
     }
