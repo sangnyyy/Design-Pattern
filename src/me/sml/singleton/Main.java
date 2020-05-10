@@ -2,13 +2,13 @@ package me.sml.singleton;
 
 public class Main {
     public static void main(String[] args){
-        Person person = Person.getInstance("person1");
+        Person person = Person.getInstance();
         System.out.println(person.getName());
 
-        Person2 person2 = Person2.getInstance();
-        System.out.println(person2.getName());
+        PersonWithHolder personWithHolder = PersonWithHolder.getInstance();
+        System.out.println(personWithHolder.getName());
 
-        Person3 person3 = Person3.getInstance();
-        System.out.println(person3.getName());
+        PersonWithDCL personWithDCL = PersonWithDCL.getInstance();
+        System.out.println(personWithDCL.getName());
     }
 }

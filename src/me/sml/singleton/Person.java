@@ -5,19 +5,18 @@ public class Person {
     private String name;
 
     public String getName() {
-
         return name;
     }
 
-    private Person(String name){
-        this.name = name;
+    private Person(){
+        this.name = "person";
     }
 
-    public static Person getInstance(String name){
+    public static Person getInstance(){
         if(person != null){
             return person;
         }
-        person = new Person(name);
+        person = new Person();
         return person;
     }
 }
